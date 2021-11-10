@@ -35,3 +35,28 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 480px){
+    .about{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .about-left{
+        width: 100%;
+    }
+
+    .about-card{
+        height: 30vh;
+    }
+
+    .about-card.bg{
+        display: none;
+    }
+
+    .about-rigth{
+        padding: 20px;
+    }
+
+}
