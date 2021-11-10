@@ -4,10 +4,11 @@
 }
 
 .info-left{
-    flex: 1s;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 50px;
 }
 
 .info-rigth{
@@ -16,20 +17,20 @@
 }
 
 .info-left-wrapper{
-    padding: 50px;
+    padding: 30px;
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .info-intro{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
 }
 
 .info-name{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .info-title{
@@ -42,26 +43,27 @@
     animation: move 10s ease-in-out infinite alternate;
 }
 
+.info-desc{
+    font-size: 21px;
+}
+
 @keyframes move {
-    25%{
+    33%{
         transform: translateY(-50px);
     }
-    50%{
+    66%{
         transform: translateY(-100px);
     }
-    75%{
-        transform: translateY(-150px);
-    }
     100%{
-        transform: translateY(-200px);
+        transform: translateY(-150px);
     }
 }
 
 .info-title-item{
     height: 50px;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
-    color: blue
+    color: #4361ee
 }
 
 .info-img{
@@ -72,8 +74,9 @@
 }
 
 .info-bg{
-    /* Poner el clip path que mas me mole */
-    background-color: blue;
+    clip-path: polygon(100% 0, 100% 0, 0 100%, 100% 100%);
+
+    background-color: #4361ee;
     width: 100%;
     height: 100%;
     position: absolute;

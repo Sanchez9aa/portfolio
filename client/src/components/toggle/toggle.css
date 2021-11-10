@@ -7,9 +7,10 @@
     position: fixed;
     top: 10px;
     right: 10px;
+    z-index: 99;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
@@ -19,7 +20,7 @@
 }
 
 .toggle-button{
-    height: 25px;
+    width: 25px;
     height: 25px;
     border-radius: 50%;
     background-color: gray;

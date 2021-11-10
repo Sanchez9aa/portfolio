@@ -6,8 +6,7 @@ const PortfolioList = () => {
     return (
         <div className="pl">
             <div className="pl-text">
-                <h1 className="pl-title"></h1>
-                <p className="pl-desc"></p>
+                <h2 className="pl-title">Desarrollo y Creatividad - Portfolio</h2>
             </div>
             <div className="pl-list">
                 {

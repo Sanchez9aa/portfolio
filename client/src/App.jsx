@@ -6,15 +6,15 @@ import Toggle from './components/toggle/Toggle'
 import { useContext } from 'react'
 import { DarkContext } from './context'
 
-const App = () {
+const App = () => {
 
   const dark = useContext(DarkContext)
-  const darkMode = dark.state.darkMode
+  const darkMode = dark.state.darkmode
 
   return (
-    <div style={{backgroundColor: darkMode ? "#111" : white, color: darkMode && "white" }}>
+    <div style={{backgroundColor: darkMode ? "#111" : "white", color: darkMode && "white" }}>
       <Toggle />
-      <Intro />
+      <Info />
       <About />
       <PortfolioList />
       <Contact />
