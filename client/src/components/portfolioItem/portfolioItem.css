@@ -33,6 +33,10 @@
     transform: translateY(-100%);
 }
 
+.openModal{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 480px){
     .p{
         width: 80%;

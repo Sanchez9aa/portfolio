@@ -16,7 +16,7 @@ const About = () => {
 
                 He realizado un curso superior de desarrollo web y el Full Stack Open de la universidad de Helsinki. <br/> <br/> 
                 
-                Tengo 4 años de experiencia con Javascript, 3 con Reactjs y 2 con Nodejs. No tengo preferencia sobre el backend o el front end, de hecho, me encantan los dos :D.
+                Tengo 4 años de experiencia con Javascript, 2 con Reactjs y 2 con Nodejs. No tengo preferencia sobre el backend o el front end, de hecho, me encantan los dos :D.
                 </p>
                 
             </div>

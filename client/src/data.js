@@ -23,6 +23,12 @@ export const portfolioItem = [
         id: 5,
         img: "https://i.ibb.co/D9DYFQ3/screencapture-carselonadaily-2021-11-10-12-57-40.png",
         link: "https://www.carselonadaily.com/"
+    },
+    {
+        id: 6,
+        img: "https://i.ibb.co/5vpvMx6/screencapture-localhost-3000-2021-11-18-17-20-37.png",
+        link: null,
+        video: "faicebook"
     }
 ]
 

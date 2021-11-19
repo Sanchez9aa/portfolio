@@ -17,14 +17,13 @@ const Info = () => {
                          </div>
                      </div>
                      <p className="info-desc">
-                     Diseño y desarrollo servicios para clientes de todos los tamaños, especializándome en la creación de sitios web elegantes y modernos, servicios web y tiendas online.
+                     Diseño y desarrollo servicios para clientes de todos los tamaños, especializándome en la creación de sitios web y tiendas online elegantes y modernos, servicios web, APIs, basado en un MERN stack.
                      </p>
                  </div>
                  {/* Crear svg pegar y dar la clase info-scroll */}
              </div>
              <div className="info-rigth">
                  <div className="info-bg"></div>
-                 <img src={atom} alt="" className="info-img" />
              </div>
          </div>
     )
