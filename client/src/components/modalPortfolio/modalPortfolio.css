@@ -12,13 +12,13 @@
 }
 
 .m-content{
-  width: 70%;
-  height: 60%;
+  width: 80%;
+  height: 70%;
   background-color: #fff;
 }
 
 .m-header, .m-footer{
-  padding: 10px;
+  padding: 15px;
 }
 
 .m-header h2{
@@ -32,8 +32,8 @@
 }
 
 .m-body-youtube-video iframe{
-  width: 70%;
-  height: 70%;
+  width: 93%;
+  height: 100%;
   margin: 10px auto;
 }
 
@@ -42,6 +42,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
+  padding: 15px;
 }
 
 .m-body-summary p{
@@ -56,7 +57,7 @@
   padding: 20px 0;
 }
 
-.m-body-links a{
+.m-body-link{
   padding: 10px 20px;
   border-radius: 10px;
   -webkit-box-shadow: 1px 1px 5px 1px #e9e9e9; 

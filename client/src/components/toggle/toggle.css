@@ -28,6 +28,18 @@
     cursor: pointer;
 }
 
+.darkBg{
+	background-color: rgb(17, 17, 17);
+}
+
+.darkShadow{
+	box-shadow: 1px 1px 5px 1px #222222;
+}
+
+.darkColor{
+	color:#fff
+}
+
 @media screen and (max-width: 480px){
     .toggle{
         right: 43%;

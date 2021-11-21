@@ -1,10 +1,14 @@
 import "./modalPortfolio.css";
 import exported from "../../vData";
 import { useEffect, useState } from "react";
+import {DarkContext} from '../../context'
+import { useContext } from "react";
 
 const ModalPortfolio = ({ show, setShow }) => {
   const { vData, linkedin } = exported;
   const [modal, setModal] = useState();
+
+  const dark = useContext(DarkContext)
 
   useEffect(() => {
     const modale = vData.find((x) => x.video === show.video);
@@ -20,7 +24,7 @@ const ModalPortfolio = ({ show, setShow }) => {
       className="m-overlay"
       onClick={() => setShow({ ...show, show: !show })}
     >
-      <div className="m-content" onClick={(e) => e.stopPropagation()}>
+      <div className={ !dark.state.darkmode ? "m-content" : "m-content darkBg" } onClick={(e) => e.stopPropagation()}>
         <div className="m-header">
           <h2>{modal.header}</h2>
         </div>
@@ -53,7 +57,7 @@ const ModalPortfolio = ({ show, setShow }) => {
             </p>
           </div>
           <div className="m-body-links">
-            <a
+            <a className={ !dark.state.darkmode ? "m-body-link" : "m-body-link darkShadow darkColor"} 
               href={modal.github}
               alt=""
               target="_blank"
@@ -62,6 +66,7 @@ const ModalPortfolio = ({ show, setShow }) => {
               Github
             </a>
             <a
+              className={ !dark.state.darkmode ? "m-body-link" : "m-body-link darkShadow darkColor"}
               href={linkedin}
               alt=""
               target="_blank"
