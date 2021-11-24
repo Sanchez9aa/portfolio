@@ -28,7 +28,13 @@ export const portfolioItem = [
         id: 6,
         img: "https://i.ibb.co/5vpvMx6/screencapture-localhost-3000-2021-11-18-17-20-37.png",
         link: null,
-        video: "faicebook"
+        project: "faicebook"
+    },
+    {
+        id: 7,
+        img: "https://i.ibb.co/rpKRjmz/screencapture-apirestcountry-herokuapp-2021-11-24-09-46-42.png",
+        link: null,
+        project: "apiRestCountry"
     }
 ]
 

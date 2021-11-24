@@ -11,7 +11,7 @@ const PortfolioList = () => {
             <div className="pl-list">
                 {
                     portfolioItem.map((item) => (
-                        <PortfolioItem key={item.id} img={item.img} link={item.link} video={item.video} />
+                        <PortfolioItem key={item.id} img={item.img} link={item.link} project={item.project}/>
                     ))
                 }
             </div>

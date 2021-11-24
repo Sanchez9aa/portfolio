@@ -11,9 +11,9 @@ const ModalPortfolio = ({ show, setShow }) => {
   const dark = useContext(DarkContext)
 
   useEffect(() => {
-    const modale = vData.find((x) => x.video === show.video);
+    const modale = vData.find((x) => x.project === show.project);
     setModal(modale);
-  }, [show.video]);
+  }, [show.project]);
 
   if (!show.show) {
     return null;
@@ -74,6 +74,22 @@ const ModalPortfolio = ({ show, setShow }) => {
             >
               Linkedin
             </a>
+            {
+              !modal.heroku 
+              ? null
+              : (
+                <a
+              className={ !dark.state.darkmode ? "m-body-link" : "m-body-link darkShadow darkColor"}
+              href={modal.heroku}
+              alt=""
+              target="_blank"
+              rel="nofollow noreferrer noopener"
+            >
+              Heroku
+            </a>
+              )
+            
+            }
           </div>
         </div>
         <div className="m-footer"></div>
