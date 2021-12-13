@@ -1,3 +1,4 @@
+import React from "react";
 import "./about.css"
 import atom from "../../img/atom.png"
 
