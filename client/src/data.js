@@ -35,6 +35,36 @@ export const portfolioItem = [
         img: "https://i.ibb.co/rpKRjmz/screencapture-apirestcountry-herokuapp-2021-11-24-09-46-42.png",
         link: null,
         project: "apiRestCountry"
+    },
+    {
+        id: 8,
+        img: "https://i.ibb.co/M8DkV02/screencapture-mechswar-herokuapp-2021-12-10-13-51-39.png",
+        link: null,
+        project: "mechWar"
+    },
+    {
+        id: 9,
+        img: "https://i.ibb.co/9g42yv2/screencapture-martiansrobots-herokuapp-2021-12-10-13-53-35.png",
+        link: null,
+        project: "martianRobots"
+    },
+    {
+        id: 10,
+        img: "https://i.ibb.co/g4tKs6d/screencapture-phonescatalog-herokuapp-2021-12-13-17-21-33.png",
+        link: null,
+        project: "phoneCatalog"
+    },
+    {
+        id: 11,
+        img: "https://i.ibb.co/xgTGWng/screencapture-fmcalculatorapp-herokuapp-2021-12-13-17-21-07.png",
+        link: null,
+        project: "calculatorApp"
+    },
+    {
+        id: 12,
+        img: "https://i.ibb.co/xgTGWng/screencapture-fmcalculatorapp-herokuapp-2021-12-13-17-21-07.png",
+        link: null,
+        project: "calculatorInditexChallenge"
     }
 ]
 
