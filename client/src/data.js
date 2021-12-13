@@ -38,13 +38,13 @@ export const portfolioItem = [
     },
     {
         id: 8,
-        img: "https://i.ibb.co/M8DkV02/screencapture-mechswar-herokuapp-2021-12-10-13-51-39.png",
+        img: "https://i.ibb.co/tDn5ZQN/MechWars.png",
         link: null,
         project: "mechWar"
     },
     {
         id: 9,
-        img: "https://i.ibb.co/9g42yv2/screencapture-martiansrobots-herokuapp-2021-12-10-13-53-35.png",
+        img: "https://i.ibb.co/tDRCwTG/Martian-Robots.png",
         link: null,
         project: "martianRobots"
     },
