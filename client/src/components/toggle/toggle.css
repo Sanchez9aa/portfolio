@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    transition: 0.5s linear;
     
 }
 
@@ -26,10 +27,12 @@
     background-color: gray;
     position: absolute;
     cursor: pointer;
+    transition: 0.5s linear;
 }
 
 .darkBg{
 	background-color: rgb(17, 17, 17);
+    transition: 0.5s linear;
 }
 
 .darkShadow{
@@ -37,7 +40,16 @@
 }
 
 .darkColor{
-	color:#fff
+	color:#fff;
+    transition: 0.5s linear;
+}
+
+.darkBorder{
+    border-color: #222222
+}
+
+.transition{
+    transition: 0.5s linear
 }
 
 @media screen and (max-width: 480px){
