@@ -2,6 +2,7 @@ import { useContext, useRef, useState } from "react"
 import emailjs from "emailjs-com"
 import "./contact.css"
 import { DarkContext } from "../../context"
+import React from "react";
 
 const Contact = () => {
 
