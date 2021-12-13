@@ -1,3 +1,4 @@
+import React from "react";
 import PortfolioItem from "../portfolioItem/PortfolioItem"
 import "./portfolioList.css"
 import { portfolioItem } from "../../data"
