@@ -31,7 +31,7 @@ const ModalPortfolio = ({ show, setShow, img }) => {
         </div>
         <div className={ !dark.state.darkmode ? "m-body" : "m-body darkBg darkBorder" }>
           <div className="m-body-youtube-video">
-            { !modal.link 
+            { modal.link === "" || !modal.link
               ? <img src={img} className="modal-img" />
               : (
               <iframe
