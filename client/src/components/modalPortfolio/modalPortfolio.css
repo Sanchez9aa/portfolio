@@ -78,14 +78,7 @@
   background: #333333;
 }
 
-.modal-img{
-  width: 50%;
-}
-
 @media screen and (max-width: 820px) {
-  .modal-img{
-    width: 100%;
-  }
   .m-content {
     width: 90%;
     height: 88%;
