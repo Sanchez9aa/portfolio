@@ -1,5 +1,5 @@
 import "./portfolioItem.css";
-import { useState } from "react";
+import React, { useState } from "react";
 import ModalPortfolio from "../modalPortfolio/ModalPortfolio";
 
 const PortfolioItem = ({ img, link, project }) => {
@@ -32,7 +32,7 @@ const PortfolioItem = ({ img, link, project }) => {
         </div>
         {!link ? modal : normal}
       </div>
-      {!show.show ? null : <ModalPortfolio show={show} setShow={setShow} />}
+      {!show.show ? null : <ModalPortfolio show={show} setShow={setShow} img={img} />}
     </>
   );
 };
