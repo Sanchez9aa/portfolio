@@ -1,10 +1,11 @@
+import React from "react";
 import "./modalPortfolio.css";
 import exported from "../../vData";
 import { useEffect, useState } from "react";
 import {DarkContext} from '../../context'
 import { useContext } from "react";
 
-const ModalPortfolio = ({ show, setShow }) => {
+const ModalPortfolio = ({ show, setShow, img }) => {
   const { vData, linkedin } = exported;
   const [modal, setModal] = useState();
 
@@ -24,19 +25,22 @@ const ModalPortfolio = ({ show, setShow }) => {
       className="m-overlay"
       onClick={() => setShow({ ...show, show: !show })}
     >
-      <div className={ !dark.state.darkmode ? "m-content" : "m-content darkBg" } onClick={(e) => e.stopPropagation()}>
+      <div className={ !dark.state.darkmode ? "m-content" : "m-content darkBg " } onClick={(e) => e.stopPropagation()}>
         <div className="m-header">
           <h2>{modal.header}</h2>
         </div>
-        <div className="m-body">
+        <div className={ !dark.state.darkmode ? "m-body" : "m-body darkBg darkBorder" }>
           <div className="m-body-youtube-video">
-            <iframe
+            { !modal.link 
+              ? <img src={img} className="modal-img" />
+              : (
+              <iframe
               src={`https://www.youtube.com/embed/${modal.link}`}
               frameBorder="0"
               allow="accelerometer; autopaly; clipboard-write; encrypted-med"
               allowFullScreen
               title="Embedded Youtube Video"
-            />
+            />)}
           </div>
           <div className="m-body-summary">
             <p>
