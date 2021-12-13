@@ -1,5 +1,5 @@
 import "./info.css"
-import atom from "../../img/test.png"
+import React from "react";
 
 const Info = () => {
     return (
