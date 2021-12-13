@@ -9,6 +9,7 @@
     height: 100%;
     position: absolute;
     background-color: #4361ee;
+    transition: 0.5s linear;
 }
 
 .contact-wrapper{
