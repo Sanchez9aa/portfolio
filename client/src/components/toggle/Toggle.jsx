@@ -1,3 +1,4 @@
+import React from 'react'
 import { useContext } from 'react'
 import { DarkContext } from '../../context'
 import './toggle.css'
