@@ -1,3 +1,4 @@
+import React from 'react'
 import About from './components/about/About'
 import Info from './components/info/Info'
 import PortfolioList from './components/portfolioList/PortfolioList'
@@ -12,7 +13,7 @@ const App = () => {
   const darkMode = dark.state.darkmode
 
   return (
-    <div style={{backgroundColor: darkMode ? "#111" : "white", color: darkMode && "white" }}>
+    <div style={{transition: "0.5s linear", backgroundColor: darkMode ? "#111" : "white", color: darkMode && "white" }}>
       <Toggle />
       <Info />
       <About />
