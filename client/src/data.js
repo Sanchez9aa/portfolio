@@ -32,7 +32,7 @@ export const portfolioItem = [
     },
     {
         id: 7,
-        img: "https://i.ibb.co/rpKRjmz/screencapture-apirestcountry-herokuapp-2021-11-24-09-46-42.png",
+        img: "https://i.ibb.co/hfkWFKQ/screencapture-apirestcountry-herokuapp-2021-12-14-14-11-30.png",
         link: null,
         project: "apiRestCountry"
     },
