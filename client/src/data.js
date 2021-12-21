@@ -65,6 +65,12 @@ export const portfolioItem = [
         img: "https://i.ibb.co/xgTGWng/screencapture-fmcalculatorapp-herokuapp-2021-12-13-17-21-07.png",
         link: null,
         project: "calculatorInditexChallenge"
+    },
+    {
+        id: 13,
+        img: "https://i.ibb.co/S5qtQQm/screencapture-react-ts-quiz-herokuapp-2021-12-21-13-53-31.png",
+        link: null,
+        project: "react-ts-quiz"
     }
 ]
 
