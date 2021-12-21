@@ -74,6 +74,17 @@ const vData = [
     arquitectura: "No tiene",
     heroku: "https://calculatorinditexchallenge.herokuapp.com/",
     github: "https://github.com/Sanchez9aa/CalculatorInditexChallenge"
+  },
+  {
+    project: "react-ts-quiz",
+    header: "Projecto Quiz con la Api de trivia",
+    link: "",
+    summary: "Proyecto sencillo con react + typescript, se le da al usuario la posibilidad de hacer un quiz con x preguntas, x dificultad y x categorías.",
+    frontend: "React, styled-components, typescript",
+    backend: "No tiene",
+    arquitectura: "No tiene",
+    heroku: "https://react-ts-quiz.herokuapp.com/",
+    github: "https://github.com/Sanchez9aa/quiz-react-ts"
   }
 ]
 
