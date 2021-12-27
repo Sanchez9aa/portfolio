@@ -85,6 +85,17 @@ const vData = [
     arquitectura: "No tiene",
     heroku: "https://react-ts-quiz.herokuapp.com/",
     github: "https://github.com/Sanchez9aa/quiz-react-ts"
+  },
+  {
+    project: "todo-react-ts",
+    header: "Projecto ToDo React y Typescript",
+    link: "",
+    summary: "Proyecto sencillo con react + typescript, se le da al usuario la posibilidad de crear una lista de cosas por hacer, esas task se pueden borrar, modificar o renombrar",
+    frontend: "React, styled-components, typescript",
+    backend: "No tiene",
+    arquitectura: "No tiene",
+    heroku: "https://todo-ts-react.herokuapp.com/",
+    github: "https://github.com/Sanchez9aa/todo-react-ts"
   }
 ]
 
