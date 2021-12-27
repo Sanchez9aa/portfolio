@@ -68,9 +68,15 @@ export const portfolioItem = [
     },
     {
         id: 13,
-        img: "https://i.ibb.co/S5qtQQm/screencapture-react-ts-quiz-herokuapp-2021-12-21-13-53-31.png",
+        img: "https://i.ibb.co/BwX24CS/screencapture-react-ts-quiz-herokuapp-2021-12-27-02-11-27.png",
         link: null,
         project: "react-ts-quiz"
+    },
+    {
+        id: 14,
+        img: "https://i.ibb.co/BK3Q6Pb/screencapture-todo-ts-react-herokuapp-2021-12-27-02-08-10.png",
+        link: null,
+        project: "todo-react-ts"
     }
 ]
 
